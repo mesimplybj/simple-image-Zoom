@@ -1,0 +1,27 @@
+<html>
+
+<head>
+	<script src="js/jquery.min.js"></script>
+	<script src="js/Zoom.js" type="text/javascript"></script>
+</head>
+
+<body>
+	
+
+	<div align="center" id="divcontainer">
+		<div id="divImageContainer">
+			<!--image from http://widewallpaper.info/city/city-hd-hq-download/-->
+			<img id="imgZoom" src="image/city-hd-hq-download.jpg" height="540" width="960" alt="Zoom img" />
+			
+		</div>
+		<div id="divMove"></div>
+	</div>
+	<div id="status"></div>
+	<script type="text/javascript">
+		$(function(){
+                   $('#imgZoom').ImageZoom();
+         });
+	</script>
+</body>
+
+</html>
